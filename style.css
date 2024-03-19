@@ -513,7 +513,7 @@ a img.aligncenter {
         transform: translate3d(100%, 0, 0);
     }
     .menu__brand .logo {
-        width: 180px;
+        width: 80px;
         height: 35px;
     }
 }
@@ -522,9 +522,35 @@ a img.aligncenter {
     z-index: 10;
 }
 
+
+/* navbar */
+
+
+/* .navbar {
+    header.navbar-dark {
+        width: 100%;
+        position: fixed;
+        transition: 0.3s ease-in-out;
+    }
+    .nav-active {
+        background-color: #fff;
+        box-shadow: 5px -1px 12px -5px grey;
+    }
+    .nav-active {
+    background-color: #fff;
+    box-shadow: 5px -1px 12px -5px grey;
+}
+
+} */
+
 .navbar-dark {
-    background: #ffffff;
+    /* background: #ffffff; */
     padding: 15px 0px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 0px);
+    -webkit-backdrop-filter: blur( 0px);
+    border: 1px solid rgba( 255, 255, 255, 0.18);
 }
 
 
@@ -692,7 +718,7 @@ a img.aligncenter {
 .demo-2 .page-view h1 {
     text-transform: uppercase;
     letter-spacing: 16px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Amble', sans-serif;
     font-weight: 500;
     color: #ffffff;
 }
@@ -703,20 +729,32 @@ a img.aligncenter {
     }
 }
 
+
+/* Jewel */
+
 .demo-2 .page-view .project:nth-child(1) {
-    background-image: url(uploads/upl/image31.jpeg);
+    background-image: url(uploads/upl/people01.jpeg);
 }
+
+
+/* gigevent */
 
 .demo-2 .page-view .project:nth-child(2) {
-    background-image: url(uploads/upl/image8.jpeg);
+    background-image: url(uploads/upl/eventgig1.jpeg);
 }
+
+
+/* sheina */
 
 .demo-2 .page-view .project:nth-child(3) {
-    background-image: url(uploads/upl/image22.jpeg);
+    background-image: url(uploads/upl/people.jpeg);
 }
 
+
+/* cat */
+
 .demo-2 .page-view .project:nth-child(4) {
-    background-image: url(uploads/upl/image25.jpeg);
+    background-image: url(uploads/upl/animal.jpeg);
 }
 
 .demo-2 .page-view .project:nth-child(odd).hide {
@@ -1824,13 +1862,25 @@ hr.invis1 {
     cursor: pointer;
     background: #fff;
     padding: 12px 40px;
+    margin: 10px;
     border: none;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 .filter-button-group button:hover {
     background: #333333;
     color: #ffffff;
+}
+
+.gallery-menu {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    /* required */
 }
 
 .gallery-single {
@@ -1842,14 +1892,16 @@ hr.invis1 {
     text-align: center;
     overflow: hidden;
     position: relative;
-    border: 10px solid #f9ba1f;
+    /* border: 8px solid #524d3f; */
+    border-radius: 8px;
 }
 
 .gallery-single img {
     width: 100%;
     height: auto;
-    transform: scale(1.6);
+    transform: scale(1.);
     transition: all 0.3s ease 0s;
+    /* border-radius: 3px */
 }
 
 .gallery-single:hover img {
@@ -2488,7 +2540,7 @@ select.mobile-device {
     font-weight: 400;
     font-size: 20px;
     text-transform: capitalize;
-    line-height: !important;
+    /* line-height: 1px !important; */
 }
 
 .footer {
@@ -2909,7 +2961,7 @@ select.mobile-device {
 -------------------------------------------------------------------*/
 
 .banner-bg-1 {
-    background: url(uploads/inner-bg.jpg);
+    background: url(uploads/about_01.jpg);
     padding: 150px 0;
     background-clip: initial;
     background-color: rgba(0, 0, 0, 0);
