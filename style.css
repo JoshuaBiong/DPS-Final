@@ -537,20 +537,25 @@ a img.aligncenter {
         box-shadow: 5px -1px 12px -5px grey;
     }
     .nav-active {
-    background-color: #fff;
-    box-shadow: 5px -1px 12px -5px grey;
-}
-
+        background-color: #fff;
+        box-shadow: 5px -1px 12px -5px grey;
+    }
 } */
 
 .navbar-dark {
     /* background: #ffffff; */
     padding: 15px 0px;
-    background: rgb(255, 255, 255);
+    /* background: rgb(255, 255, 255); */
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
     backdrop-filter: blur( 0px);
     -webkit-backdrop-filter: blur( 0px);
-    border: 1px solid rgba( 255, 255, 255, 0.18);
+    /* border: 1px solid rgba( 255, 255, 255, 0.18);
+    background: rgba( 255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 1.5px);
+    -webkit-backdrop-filter: blur( 1.5px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18); */
 }
 
 
@@ -586,6 +591,13 @@ a img.aligncenter {
     margin: 0;
     display: table;
     text-align: center;
+    background: rgba( 255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 1.5px);
+    -webkit-backdrop-filter: blur( 1.5px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    padding: 10px;
 }
 
 .page-view .project .text p {
